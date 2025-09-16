@@ -4,22 +4,29 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main-title">WELCOME TO MY PORTFOLIO</div>
     <div class="content">
       <div class="side-by-side">
         <div style="display: flex; flex-direction: column">
-          <div style="flex: 1; display: flex; flex-direction: column">
-            <div class="section-title">Profile</div>
+          <div
+            class="section-box"
+            style="
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 30px;
+            "
+          >
+            <div class="section-title">About me</div>
             <div class="section-text" style="text-indent: 2em">
-              I'm Trystan Prastanov Situmorang. I'm currently a computer science
-              student at State University of Jakarta. I have a strong passion
-              for tinkering with technology and exploring new advancements in
-              the field. My interests include game development, IoT, and solving
-              practical problems through technology. I love to learn new things,
-              face challenges, taking risks, and improve myself.
+              I'm currently a computer science student at State University of
+              Jakarta. I have a strong passion for tinkering with technology and
+              exploring new advancements in the field. My interests include game
+              development, IoT, and solving practical problems through
+              technology. I love to learn new things, face challenges, taking
+              risks, and improve myself.
             </div>
           </div>
-          <div style="flex: 1">
+          <div class="section-box" style="flex: 1">
             <div class="section-title">Education</div>
             <table>
               <tr>
@@ -50,12 +57,18 @@
             </table>
           </div>
         </div>
-        <div>
+        <div style="display: flex; flex-direction: column">
           <img src="picture.jpg" class="pfp" alt="Profile Picture" />
+          <div
+            class="section-title"
+            style="text-align: center; margin-top: 10px; color: #faffca"
+          >
+            Trystan Prastanov Gabriel Situmorang
+          </div>
         </div>
       </div>
       <div class="side-by-side">
-        <div style="flex: 1;">
+        <div class="section-box" style="flex: 1">
           <div class="section-title">Skills</div>
           <ul class="section-list">
             <li>
@@ -94,101 +107,93 @@
             </li>
           </ul>
         </div>
-        <div style="flex: 3;">
-          <div class="section-title">Past Projects</div>
-          <ul>
-            <li>
-              <div class="section-subtitle">
-                GFL2 Platoon Raid Tracker Web App
-              </div>
-              <div>
-                <a
-                  class="section-link"
-                  href="https://github.com/KaonWry/GFL2-Gunsmoke-Frontline-Score-Tracker"
-                  >https://github.com/KaonWry/GFL2-Gunsmoke-Frontline-Score-Tracker</a
-                >
-              </div>
-              <div class="section-text">
-                A web application designed to help platoons track player
-                performance and meta dolls during Gunsmoke Frontline, built for
-                the game Girls Frontline 2.
-              </div>
-            </li>
-            <li>
-              <div class="section-subtitle">Reminder Bot on Telegram</div>
-              <div>
-                <a
-                  class="section-link"
-                  href="https://github.com/KaonWry/reminder_telegram_bot"
-                  >https://github.com/KaonWry/reminder_telegram_bot</a
-                >
-              </div>
-              <div class="section-text">
-                A telegram bot that can receive commands to set reminders and
-                send notifications at specified times. Built using Python and
-                the python-telegram-bot library.
-              </div>
-            </li>
-            <li>
-              <div class="section-subtitle">
-                Joke Unit Conversion Desktop App
-              </div>
-              <div>
-                <a
-                  class="section-link"
-                  href="https://github.com/KaonWry/Patriot-Converter"
-                  >https://github.com/KaonWry/Patriot-Converter</a
-                >
-              </div>
-              <div class="section-text">
-                A desktop app for converting units with joke units that came
-                from American stubbornness to use anything but metric units.
-                Built using Python and Qt.
-              </div>
-            </li>
-          </ul>
-          <div class="section-title">Awards</div>
-          <ul class="section-list">
-            <li>
-              1st place at Regency level 2020 National Science Competition
-              (KSN-K)
-            </li>
-            <li>
-              Participant at Province level 2020 National Science Competition
-              (KSN-P)
-            </li>
-          </ul>
+        <div style="flex: 3; display: flex; flex-direction: column">
+          <div class="section-box" style="flex: 2">
+            <div class="section-title">Past Projects</div>
+            <ul>
+              <li>
+                <div class="section-subtitle">
+                  GFL2 Platoon Raid Tracker Web App
+                </div>
+                <div>
+                  <a
+                    class="section-link"
+                    href="https://github.com/KaonWry/GFL2-Gunsmoke-Frontline-Score-Tracker"
+                    >visit here</a
+                  >
+                </div>
+                <div class="section-text">
+                  A web application designed to help platoons track player
+                  performance and meta dolls during Gunsmoke Frontline, built
+                  for the game Girls Frontline 2.
+                </div>
+              </li>
+              <li>
+                <div class="section-subtitle">Reminder Bot on Telegram</div>
+                <div>
+                  <a
+                    class="section-link"
+                    href="https://github.com/KaonWry/reminder_telegram_bot"
+                    >visit here</a
+                  >
+                </div>
+                <div class="section-text">
+                  A telegram bot that can receive commands to set reminders and
+                  send notifications at specified times. Built using Python and
+                  the python-telegram-bot library.
+                </div>
+              </li>
+              <li>
+                <div class="section-subtitle">
+                  Joke Unit Conversion Desktop App
+                </div>
+                <div>
+                  <a
+                    class="section-link"
+                    href="https://github.com/KaonWry/Patriot-Converter"
+                    >visit here</a
+                  >
+                </div>
+                <div class="section-text">
+                  A desktop app for converting units with joke units that came
+                  from American stubbornness to use anything but metric units.
+                  Built using Python and Qt.
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="section-box" style="flex: 1; margin-top: 30px">
+            <div class="section-title">Awards</div>
+            <ul class="section-list">
+              <li>
+                1st place at Regency level 2020 National Science Competition
+                (KSN-K)
+              </li>
+              <li>
+                Participant at Province level 2020 National Science Competition
+                (KSN-P)
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="side-by-side">
-        <div style="flex: 2;">
+        <div class="section-box" style="flex: 1">
           <div class="section-title">Reflection</div>
           <div class="section-text">
             <div class="section-text">
-              <div style="text-indent: 2em">
-                I've noticed a pattern in how I handle side projects. On one
-                hand I sometimes struggle to actually finish them. Once the
-                initial excitement wears off, I'll either get distracted by
-                another new idea or even fall into full-on procrastination mode.
-                Other times I swing the other way, I'll overengineer a project
-                that I trap myself, endlessly tweaking tiny details instead of
-                moving on.<br /><br />
-              </div>
-              <div style="text-indent: 2em">
-                On the positive side, this usually comes from genuine curiosity
-                and a drive to dive deep into a topic, which is valuable when
-                learning new things. But I've also learned that projects don't
-                have to be perfect to be valuable. Lately I've been trying with
-                setting smaller goals and finishing with "good enough" version
-                first before polishing it. This helps me actually create usable
-                products while still room for improvements. It's a work in
-                progress, but I see it as part of growing as a person to be
-                someone that can ship ideas into reality.
-              </div>
+              I've noticed I sometimes struggle to finish side projects, either
+              I lose steam and move on to the next idea, or I overengineer
+              things until I get stuck. This comes from curiosity and a drive to
+              go deep which helps me learn quickly, but I've realised projects
+              don't have to be perfect to be valuable. Lately, I've been setting
+              smaller goals and aiming for a "good enough" version first, which
+              makes it easier to actually ship ideas while still leaving room to
+              improve.
             </div>
           </div>
         </div>
-        <div style="flex: 1;">
+        <div class="section-box" style="flex: 1">
           <div class="section-title">Future Career Goals</div>
           <div class="section-text">
             <div style="text-indent: 2em">
