@@ -11,6 +11,10 @@ th,
 td {
   padding: 15px;
 }
+.content {
+  margin-left: 3%;
+  margin-right: 3%;
+}
 .main-title {
   text-align: center;
   font-size: 45px;
@@ -18,28 +22,47 @@ td {
   padding: 30px;
 }
 .section-title {
-  font-size: 30px;
-  margin-top: 15px;
+  font-size: 34px;
+  margin-top: 10px;
   font-weight: bold;
 }
 .section-subtitle {
-  font-size: 25px;
+  font-size: 27px;
+  font-weight: bold;
 }
 .section-text,
 .section-list {
   font-size: 23px;
+  line-height: 1.5;
 }
-.nobullets {
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 0;
+.section-link {
+  font-size: 14px;
+  color: blue;
+  text-decoration: none;
+  font-style: italic;
+  line-height: 1.2;
 }
-.nobullets {
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 0;
+.section-link:hover {
+  text-decoration: underline;
 }
-.content {
-  margin-left: 3%;
-  margin-right: 3%;
+.right-section li {
+  margin-bottom: 28px;
+}
+.right-section ul,
+.right-section li {
+  font-size: 23px;
+}
+.side-by-side {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.left-section,
+.right-section {
+  flex: 1;
+  min-width: 0;
+}
+.pfp{
+  border-radius: 5%;
 }
