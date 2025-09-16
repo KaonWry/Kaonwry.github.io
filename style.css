@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 23px;
+}
+th,
+td {
+  padding: 15px;
+}
+.main-title {
+  text-align: center;
+  font-size: 45px;
+  background-color: lightblue;
+  padding: 30px;
+}
+.section-title {
+  font-size: 30px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.section-subtitle {
+  font-size: 25px;
+}
+.section-text,
+.section-list {
+  font-size: 23px;
+}
+.nobullets {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.nobullets {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.content {
+  margin-left: 3%;
+  margin-right: 3%;
+}
