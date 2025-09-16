@@ -76,3 +76,16 @@ td {
 .pfp {
   border-radius: 5%;
 }
+.footer {
+  background: #5A827E;
+  color: #FAFFCA;
+  text-align: center;
+  padding: 10px;
+}
+.footer a {
+  color: #FAFFCA;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
